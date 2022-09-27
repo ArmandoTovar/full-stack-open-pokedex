@@ -40,6 +40,6 @@ jobs:
           heroku_email: "tovi61xd@gmail.com"
           healthcheck: "https://lit-harbor-04707.herokuapp.com/health"
           checkstring: "ok"
-          
+          rollbackonhealthcheckfailed: true
 
 
