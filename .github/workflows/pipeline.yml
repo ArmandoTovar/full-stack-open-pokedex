@@ -38,4 +38,8 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "lit-harbor-04707" #Must be unique in Heroku
           heroku_email: "tovi61xd@gmail.com"
+          healthcheck: "https://lit-harbor-04707.herokuapp.com/health"
+          checkstring: "ok"
+          
+
 
